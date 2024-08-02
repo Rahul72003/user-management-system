@@ -41,3 +41,20 @@ This project is a full-stack application built with the MERN stack (MongoDB, Exp
 1. **Navigate to the `server` directory**:
    ```bash
    cd server
+2. **Install dependencies**:
+   npm install
+3. **Create a '.env' file in the 'server' directory**:
+   MONGO_URI=mongodb://localhost:27017/myapp
+   JWT_SECRET=mysecrettoken
+4. **Start the backend server**:
+   npm start
+
+### Frontend Setup
+
+1. **Navigate to the 'client' directory**:
+   cd client
+2. **Install dependencies**:
+   npm install
+3. **Start the frontend server**:
+   npm start
+
